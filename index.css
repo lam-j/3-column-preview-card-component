@@ -1,0 +1,94 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    display: grid;
+    place-items: center;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    margin: 10% 15% 10% 15%;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+p {
+    color: hsl(0, 0%, 100%,75%);
+    line-height: 25px;
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1rem;
+    margin-top: 20px;
+    padding: 20px 40px;
+    position: relative;
+    top: 70px;
+}
+button:hover {
+    border: solid white;
+    border-radius: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1rem;
+    margin-top: 20px;
+    padding: 20px 40px;
+    position: relative;
+    top: 70px;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    height: 450px;
+    padding: 50px;
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+}
+.sedan button {
+    color: hsl(31, 77%, 52%);
+}
+.sedan button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+}
+.suv button {
+    color: hsl(184, 100%, 22%);
+}
+.suv button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+.luxury button {
+    color: hsl(179, 100%, 13%);
+}
+.luxury button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+
+/* Media Queries */
+
+@media (max-width: 500px) {
+    .row {
+        flex-direction: column;
+    }
+}
